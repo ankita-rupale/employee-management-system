@@ -1,13 +1,14 @@
 import './App.css'
 import Login from './Components/Auth/Login'
 import EmployeeDashboard from './Components/Dashboard/EmployeeDashboard'
+import AdminDashboard from './Components/Dashboard/AdminDashboard'
 
 function App() {
   return (
     <>
       {/* <Login/> */}
-      <EmployeeDashboard/>
-      {/* <h1>Hii</h1> */}
+      {/* <EmployeeDashboard/> */}
+      <AdminDashboard/>
     </>
   )
 }
